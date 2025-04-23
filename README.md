@@ -9,13 +9,13 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 
 ## Algorithm
 1. Import all the necessary python libraries to predict the employee churn rate.
-2. Use pd.read_csv to deploy dataset. 
+2. Use pd.read_csvfrom pandas library to deploy dataset. 
 3. Declare x variable as input features except Departments as it have categorical values and use x.head to display the information of x.
 4. Declare y as predicted variable to predict feaure name left y.head to display the information of y.
-5. Use decisiontreeClassifier to classify the features as variable as dt.
+5. Use decisiontreeClassifier from sklearn.tree to classify the features as variable as dt.
 6. Use fit to train the model before use train_test_split for training and test data.
 7. Use predict for prediction and store in y_pred.
-8. Use plt_plot to construct decision tree.
+8. Use plt_plot from sklearn.tree to construct decision tree.
 9. Use plt.show() to show the construction of decision tree.
 
 ## Program:
